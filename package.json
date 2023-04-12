@@ -1,0 +1,22 @@
+{
+  "name": "cpu-usage-service",
+  "version": "1.0.0",
+  "description": "A Node.js service that computes SHA256 hashes using one core of CPU per day, and displays the CPU usage as a vertical bar graph on the front-end.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "sha256",
+    "cpu",
+    "usage",
+    "service"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
